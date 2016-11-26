@@ -1,0 +1,13 @@
+body {
+    background-color: darkblue;
+}
+h1 {
+    color:red;
+}
+pre {
+    color:green;
+}
+p3 {
+    background-color: yellow;
+    background-size: 15px;
+}
