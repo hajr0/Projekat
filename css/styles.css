@@ -1,13 +1,36 @@
 body {
-    background-color: darkblue;
+    background-image: url(Background.png);
+    margin: 0;
+    padding: 0;
 }
 h1 {
-    color:red;
+    color: darkgray;
+    text-align: center;
+    text-shadow: 40px 23px 40px 0;
+    text-transform: uppercase;
 }
-pre {
-    color:green;
+.nav {
+    background-color: darkred;
+    color:mintcream;
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    opacity: .5;
 }
-p3 {
-    background-color: yellow;
-    background-size: 15px;
+.nav > li {
+    display: inline-flex;
+    padding: 0 40px 0 40px;
+}
+.nav > li > a {
+    text-decoration: none;
+    color:mintcream;
+}
+.nav > li > a:hover {
+    text-shadow: 4px 4px 4px #000, 5px 5px 7.5px black; 
+}
+.vrijeme {
+    text-align: right;
+    padding-right: 15px;
+    color: mintcream;
+    size: large;
 }
