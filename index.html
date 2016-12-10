@@ -1,25 +1,9 @@
 <!DOCTYPE html>
 <HTML>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/myScript.js"></script>
     <head>
         <title> Projekat </title>
-        <script>
-            function startTime() {
-                var today = new Date();
-                var h = today.getHours();
-                var m = today.getMinutes();
-                var s = today.getSeconds();
-                m = checkTime(m);
-                s = checkTime(s);
-                document.getElementById('txt').innerHTML =
-                h + ":" + m + ":" + s;
-                var t = setTimeout(startTime, 500);
-            }
-            function checkTime(i) {
-                if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-                return i;
-            }
-        </script>
     </head>
     <body  onload="startTime()">   
         <div class="container">
@@ -28,11 +12,27 @@
         </div>   
         <ul class="nav">
             <li><a href="home.html">Home</a></li>
-            <li><a href="index.html">Main page</a></li>
+            <li><a href="index.html">News</a></li>
             <li><a href="help.html">Help</a></li>
             <li><a href="aboutme.html">About Me</a></li>
         </ul>
         <br />
-        <center><img src="welcome.gif" /></center>
+            <div class="vijest1">
+                <h2>English country music</h2>
+                <h3>From Wikipedia, the free encyclopedia</h3>
+                <br />
+                <ul>
+                    <li>This was a deliberate attempt to avoid the term "folk", at the time being used widely to include much acoustically performed music with or without genuine folk origins or "traditional" which would strictly preclude the more recent material country musicians performed. Those like Keith Summers who sought traditional musicians in rural areas often found that both songs and tunes from published sources, music hall, radio, 78 recordings or later coexisted in a performer's repertoire, sometimes, but not always, alongside music which could be strictly defined as "folk" or "traditional". The focus for revival performers of English Country Music became the style of their informants as much as their repertoire. Rather than a folk club a venue might be a remote country pub where revival and traditional musicians or singers would make music together in the bar. These were sometimes organised by revivalists like Ken Stubbs and Taffy Thomas who had developed real empathy with the older musicians. The polka dominated instrumental repertoire differed from the music that had been associated with English Country Dance up to this point. The term seems to have fallen out of regular use in favour of a more relaxed definition of "traditional" perhaps due to confusion with the better known but altogether different American Country Music.</li>
+                </ul>
+            </div>
+            <br />
+            <div class="vijest2">
+                <h2>Martin Luther (steam locomotive)</h2>
+                <h3>From Wikipedia, the free encyclopedia</h3>
+                <br />
+                <ul>
+                    <li>Martin Luther is a steam-driven traction engine abandoned in the desert of Skeleton Coast outside of the town of Swakopmund in Namibia, ca. 4 km from the town centre. The "road locomotive" was brought to German South-West Africa by First Lieutenant Edmund Troost of the Schutztruppe for use for freight service between Swakopmund and the interior of the country, for which ox wagons had been used. The route had insufficient grazing for the oxen because of droughts and seasonal conditions, and a great many oxen died along the way.In order to remedy this situation, Troost purchased a steam locomotive in Germany in early 1896, from Fr. Dehne in Halberstadt, and had it shipped from Hamburg to Swakopmund. However, at its destination it was found that the offloading facilities could not cope with the locomotive’s weight of 280 cwt (ca. 14 metric tonnes), and the ship continued to Walvis Bay, where the locomotive could be offloaded. The locomotive then remained in Walvis Bay for the next four months, as Troost had other obligations in Cape Town. When Troost was able to attend to the matter again, the engine driver hired to drive it had already left for Europe again. The engine was then driven by an American and a Boer to Swakopmund over the next three months, with the engine sinking in sand almost every 50 metres. Enormous quantities of water were also required for the operation of the locomotive. In Swakopmund, only inadequate service was available, and very few spare parts. However, the engine transported a few loads to Nonidas (ca. 11 km) and to Heigamchab. At the beginning of 1897, due to incorrect handling, the engine ground to a halt about 4 km outside of Swakopmund, and was abandoned there. A local resident Max Rhode is said to have said in a gathering in the Bismarck Hotel the following words: “Did you know that the steam ox is called ‘Martin Luther’ now because it can also say — ‘Here I stand, I can do no other’ ”. Thus the engine gained its present name, although recent scholars have doubts as to whether Luther ever did utter these words. The engine has been restored twice, first in 1973, and more recently between 2000 and 2004. After the second restoration job, a protective house was built for the engine, as it was by then apparent that the frequent mists of Swakopmund would quickly damage the engine again.</li>
+                </ul>
+            </div>
     </body>
 </HTML>

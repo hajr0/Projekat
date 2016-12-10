@@ -1,13 +1,68 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    background-repeat: none;
+    background-size: 100%;
+}
 body {
-    background-image: url(Background.png);
+    background-image: url(Background.jpg);
+    height: relative;
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
 h1 {
     color: darkgray;
     text-align: center;
     text-shadow: 40px 23px 40px 0;
     text-transform: uppercase;
+}
+.vijest1 {
+    margin: 40px;
+    padding: 30px;
+    background-image: url(music_news.png);
+    opacity: .5;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+.vijest2 {
+    margin: 40px;
+    padding: 30px;
+    background-image: url(history_news.png);
+    opacity: .5;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+h2 {
+    opacity: none;
+    text-align: left;
+    padding: 4px;
+    color: whitesmoke;
+    font-size: 30pt;
+}
+h3 {
+    margin: 0px;
+    color: lightgrey; 
+    text-align: left;
+}
+.vijest1 > ul > li {
+    text-align: left;
+    margin: 0x;
+    padding: 0px;
+    color: darkred;
+    list-style: none;
+    font-weight: bolder;
+    overflow: hidden;
+    opacity: 1;
+}
+.vijest2 > ul > li {
+    text-align: left;
+    margin: 0x;
+    padding: 0px;
+    color: darkred;
+    list-style: none;
+    font-weight: bolder;
+    overflow: hidden;
 }
 .nav {
     background-color: darkred;

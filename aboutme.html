@@ -1,25 +1,9 @@
 <!DOCTYPE html>
 <HTML>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/myScript.js"></script>
     <head>
         <title> Projekat </title>
-        <script>
-            function startTime() {
-                var today = new Date();
-                var h = today.getHours();
-                var m = today.getMinutes();
-                var s = today.getSeconds();
-                m = checkTime(m);
-                s = checkTime(s);
-                document.getElementById('txt').innerHTML =
-                h + ":" + m + ":" + s;
-                var t = setTimeout(startTime, 500);
-            }
-            function checkTime(i) {
-                if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-                return i;
-            }
-        </script>
     </head>
     <body  onload="startTime()">   
         <div class="container">
@@ -28,10 +12,10 @@
         </div>   
         <ul class="nav">
             <li><a href="home.html">Home</a></li>
-            <li><a href="index.html">Main page</a></li>
+            <li><a href="index.html">News</a></li>
             <li><a href="help.html">Help</a></li>
             <li><a href="aboutme.html">About Me</a></li>
         </ul>
-        <p> TEXT TEXT
+        <p> TEXT TEXT </p>
     </body>
 </HTML>
